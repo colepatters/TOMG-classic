@@ -944,7 +944,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Text.Acts.SetText,
 		C3.Plugins.Text.Acts.SetVisible,
 		C3.Behaviors.DragnDrop.Acts.SetEnabled,
-		C3.Plugins.System.Acts.SaveState,
 		C3.Plugins.Mouse.Cnds.OnObjectClicked,
 		C3.Plugins.System.Acts.LoadState,
 		C3.Plugins.Touch.Cnds.OnTapGestureObject,
@@ -1287,7 +1286,6 @@ self.C3_JsPropNameTable = [
 		() => 330,
 		() => 465.295,
 		() => 450.951,
-		() => "mysave",
 		() => 95,
 		() => "Checkpoint",
 		() => "200",
@@ -1298,6 +1296,7 @@ self.C3_JsPropNameTable = [
 		() => 1.3,
 		() => "menu",
 		() => "Preloaded Sounds!",
+		() => "mysave",
 		() => 30,
 		() => "CgkIy6_2k-MJEAIQAg"
 	];
